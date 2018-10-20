@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Hello World</h1>
+    <!-- http://localhost:9090/add?title= -->
+    <!-- http://localhost:9090/add -->
+    <!-- http://localhost:9090/add?title=abc -->
+    <form action="/add" method="POST">
+      <input type="text" name="title" />
+      <button type="submit">입력</button>
+    </form>
+    <% for (var i=0; i<result.length; i++){ %>
+    <h2><%=result[i].title%></h2>
+    <% } %>
+  </body>
+</html>
+
+
+
+
+
+
+
