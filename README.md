@@ -24,6 +24,17 @@
 7. RESTful API & JSON
 8. SPA (Single Page Application)
 ```
+### 1.3 CSS3 & jQuery 실무특강
+```
+1. jQuery 기초 문법, 선택자와 DOM API
+2. 이벤트, 애니메이션
+3. 이미지슬라이드, DropDown, 애니메이션구현
+4. 플러그인, 플로그인 API & Method
+5. 반응형 레이아웃, 미디어쿼리
+6. CSS3 Transition, Animation, Transform
+7. 모바일웹 레이아웃, 자바스크립트
+8. Sass, 부트스트랩, Flex Display
+```
   
 ## 2 시즌타임 확인
 ### 2.1 오전타임
