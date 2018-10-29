@@ -21,7 +21,7 @@ app.get('/',(req,res)=>{
 });
 
 app.get('/blog',(req,res)=>{
-  res.send('<a href="/">메인 index페이지 이동</a>');
+  res.send('<a href="/">메인 이동</a>');
 });
 
 // riahnrhyme

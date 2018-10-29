@@ -32,21 +32,3 @@ app.get('/login',function(req,res){
 // github.com/riahnrhyme
 // modu-project
 // hanpixel.com
-
-// 카톡 riahnrhyme
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
