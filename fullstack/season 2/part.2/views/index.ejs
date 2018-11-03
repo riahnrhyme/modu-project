@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>데이터베이스 사용하기</h1>
+    <%database.forEach(function(v,i){%>
+      <!-- <h3><%=v.title%></h3> -->
+    <%})%>
+    <%for(var i=0; i<database.length; i++){ %>    <h3><%=database[i].title%></h3>
+    <% } %>
+    <form action="/add" method="POST">
+      <input type="text" name="title" />
+      <button>저장하기</button>
+    </form>
+    <!-- GET http://localhost:9091/add?title=1234 -->
+    <!-- POST http://localhost:9091/add -->
+  </body>
+</html>

@@ -5,7 +5,7 @@ import React from 'react';
   componentDidUpdate : 화면이 바뀌고 나면 실행한다. 최초 생성시에는 실행되지 않는다.
   shouldComponentUpdate : return를 만날떄 그값이 true,false로 나눠지게 된다. true를 만나면 랜더링을 다시 한다.
   false를 만나면 랜더링을 다시 안한다.
-  componentWillUnmount
+  componentWillUnmount : 없어질때
 */
 
 class Life extends React.Component {
