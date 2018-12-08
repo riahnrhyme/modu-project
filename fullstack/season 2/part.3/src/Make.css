@@ -1,0 +1,8 @@
+/* body * { all:unset } */
+
+.color { color:green; font-size:14px; }
+
+h1 { color:blue; }
+
+/* button { background: green; border:0; outline:none; } */
+/* button { all:unset; } */
